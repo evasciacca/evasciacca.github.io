@@ -1,49 +1,23 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Eva Sciacca</title>
+---
+layout: default
+---
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/github-light.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Eva Sciacca</h1>
-        <p>This is the personal home page of Eva Sciacca</p>
 
-        <p class="view"><a href="https://github.com/evasciacca">View My GitHub Profile</a></p>
+{% include career-profile.html %}
 
-      </header>
-      <section>
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bio</h3>
+{% unless site.data.data.sidebar.education %}
+  {% include education.html %}
+{% endunless %}
 
-<p> 
-I am a computer scientist and tecnologist post-doc INAF Astrophysical Observatory of Catania. My research focuses on Web Technologies and Scientific Visualization for astrophysical applications.
-Previous research topics include: Systems Biology, Computational biological modeling and design, Linguistic models in Bioinformatics, Mathematical models for semiconductor devices, Electronic Circuit Design.
-Previously, I was a postdoctoral fellow at the University of Turin, advised by Professor Mario Coppo, where I developed computational methods for designing and analysing models of plant biology.
-I obtained a Ph.D. in Mathematics for Technologu from the Department of Mathematics and Computer Science of the University of Catania in 2010, advised by Professor Giuseppe Nicosia, working on optimization methods for biological and electronic systems design. 
-</p>
+{% include experiences.html %}
 
-<h3>THIS PAGE IS STILL UNDER CONSTRUCTION</h3>
+{% include certifications.html %}
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+{% include projects.html %}
 
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/pages">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
-</html>
+{% include oss-contributions.html %}
+
+{% include publications.html %}
+
+{% include skills.html %}
+

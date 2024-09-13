@@ -1,0 +1,205 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Eva Sciacca
+    tagline: Senior IT Researcher
+    avatar: eva-sciacca.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: eva.sciacca@inaf.it
+    phone: +39 095 7332295
+    timezone: European/Rome # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    citizenship: italian
+#    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+    linkedin: esciacca
+    xing:
+    github: evasciacca
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    mastodon:  # Please include your full Mastodon link here.
+    hackerrank: # Please provide your HackerRank username.
+    leetcode: # Please provide your LeetCode username.
+    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Italian
+          level: Native
+
+        - idiom: English
+          level: Professional
+
+        - idiom: Finnish
+          level: Basic
+
+    interests:
+      title: Interests
+      info:
+        - item: Climbing
+          link:
+
+        - item: Snowboarding
+          link:
+
+        - item: Cooking
+          link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Senior IT researcher at INAF - Astrophysical Observatory of Catania focusing on scientific visualization, big-data analysis, science gateways, workflow management systems and data systems exploiting distributed infrastructures. Her skills include the management of projects in all phases, starting from the proposal preparation towards a successful project execution, including also the administrative and financial aspects. She has been engaged in the last 10 years in the management and technological activities of several European Commission funded projects such as: FP7 SCI-BUS, FP7 VIALACTEA, H2020 INDIGO-DataCloud, H2020 AENEAS, H2020 EOSC-Pilot, H2020 NEANIAS and she is currently project manager of HE SPACE CoE. She is actively involved within the IT activities of the PNRR National Center of HPC, Big Data and Quantum Computing, the ESA GAIA mission and the Square Kilometre Array (SKA). She is co-author of about 100 papers published in refereed journals, conference proceedings and book chapters.
+education:
+    title: Education
+    info:
+      - degree: Ph.D. in Mathematics for Technology
+        university: Department of Mathematics and Computer Science, University of Catania, Italy
+        time: 2006 - 2009
+        details: |
+          Title of the Ph.D. thesis: “Contributions in Computational Biology”.  Advisor: Prof. Giuseppe Nicosia
+      - degree: Computer Science Degree (Master Level, 2 years)
+        university: University of Catania
+        time: 2004 - 2006
+        details: |
+          Title of the Master thesis: “Evolutionary Multiobjective Algorithms and Possibilistic Worst-Case Distance to optimize the design of electronic circuits”. Advisor: Prof. Angelo Marcello Anile. Marks: 110/110 cum Laude.
+      - degree: Computer Science Degree (Bachelor Level, 3 years)
+        university: University of Catania
+        time: 2001 - 2004
+        details: |
+          Title of the Bachelor thesis: “Implementation of a compact model of semiconductor ’s bipolar devices (HICUM)”. Advisor: Prof. Angelo Marcello Anile. Marks: 110/110 cum Laude. 
+
+experiences:
+    title: Experiences
+    info:
+      - role: IT Researcher
+        time: 2018 - Present
+        company: INAF Astrophysical Observatory of Catania
+        details: |
+          Acquired ability to independently carry out design, development and management functions related to technological activities under one's responsibility and to coordinate, for these purposes, technical skills, also in sectors where the performance of professional activities is required. In particular, these functions have been implemented in the following activities:
+            - Project Manager and manager of Work Packages and Tasks of national and international projects.
+            - Supervision of PhD students, research fellows, scholarship holders and trainees.
+            - Participation in national and international research projects and teams.
+      - role: Fixed Term IT Researcher
+        time: 2017 - 2018
+        company: INAF Astrophysical Observatory of Catania
+        details: |
+          Acquired ability to independently perform design, processing and management functions related to the following technological activities:
+            - High Performance Computing (HPC), High-Throughput Computing (HTC) techniques, Cloud and middleware for large data analysis.
+            - User interfaces for data processing, reprocessing and analysis: application to the AENEAS project and to scientific workflows in the ASTRI/CTA Data Challenge.
+            - Development and maintenance of data reduction software and procedures.
+      - role: Post-Doc
+        time: 2012 - 2017
+        company: INAF Astrophysical Observatory of Catania
+        details: |
+          Acquired ability to independently perform design, processing and management functions related to the following technological activities:
+            - Migration of the VisIVO web portal for WS-PGRADE/gUSE.
+            - Extension of the VisIVO application for iPhone and integration with gUSE API.
+            - Creation of scientific workflows for VisIVO and for data analysis.
+            - Testing and verification of software quality according to the SCI-BUS project.
+
+certifications:
+      title: Awards
+      list:
+        - name: UMI Award
+          start: 2007
+          end: 2008
+          organization: UMI
+          credentialid: 
+          credentialurl:
+          credentialname: UMI
+          details: |
+            Unione Matematica Italiana U.M.I. Award, UMI MIT-Italy Program. This award allowed me to spend a research period during my doctorate at the Massachusetts Institute of Technology, Boston, U.S.A.
+        - name: ARCHIMEDE award 
+          start: 2005
+          end:
+          organization: Department of Mathematics and Computer Science, University of Catania
+          credentialid: 
+          credentialurl: 
+          credentialname: 
+          details: |
+            Prize for the academic year 2003-2004, as graduated student with Excellent Career.
+projects:
+    title: Projects
+    intro: >
+      Participation in international and national projects and collaborations.
+    assignments:
+      - title: ICSC
+        link: "https://www.supercomputing-icsc.it/"
+        tagline: "ICSC National Research Centre for High Performance Computing, Big Data and Quantum Computing."
+
+      - title: SPACE CoE
+        link: "https://www.space-coe.eu/"
+        tagline: "EU Centre of Excellence focused on astrophysical and cosmological applications."
+
+      - title: NEANIAS
+        link: "https://www.neanias.eu/"
+        tagline: "Novel EOSC Services for Emerging Atmosphere, Underwater & Space Challenges"
+
+      - title: AENEAS
+        link: "https://www.aeneas2020.eu/"
+        tagline: "A science-driven, functional design for a distributed, federated European Science Data Centre (ESDC) for the Square Kilometre Array."
+
+oss:
+    title: OSS Contributions
+    intro: >
+      Contributions to open source software.
+    contributions:
+      - title: VisIVOServer
+        link: "https://github.com/VisIVOLab/VisIVOServer"
+        tagline: "Suite of software tools for creating customized views of 3D renderings from astrophysical data"
+
+      - title: ViaLactea Visual Analytics
+        link: "https://github.com/VisIVOLab/ViaLacteaVisualAnalytics"
+        tagline: "Exploit a combination of all new-generation surveys of the Galactic Plane to study the star formation process of the Milky Way."
+
+publications:
+    title: Publications
+    intro: |
+      Publications are available on the following platforms.
+    papers:
+      - title: Google Scholar profile
+        link: "https://scholar.google.it/citations?user=_obClc0AAAAJ&hl=it"
+        authors: 
+        conference: 
+
+      - title: "OrcID"
+        link: "https://orcid.org/0000-0002-5574-2787"
+        authors: 
+        conference:
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: Object Oriented Programming
+        level: 95%
+
+      - name: Scientific Programming
+        level: 98%
+
+      - name: Web Programming
+        level: 90%
+
+      - name: Distributed Computing Infrastructures
+        level: 85%
+
+      - name: Scientific Visualization
+        level: 90%
+
+      - name: Artificial Intelligence
+        level: 80%
+
+footer: >
+    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
